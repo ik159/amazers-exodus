@@ -1,0 +1,166 @@
+
+
+.container {
+   color: white;
+    padding: 8px 16px;
+    font-size: 17px;
+}
+
+.container p{
+  padding: 2px 0;
+  color: rgb(214, 227, 233);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+  float: left;
+    width: 25%;
+    padding: 20px 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width: 1600px) {
+    .column {
+      min-width: 300px;
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+    
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 40%;
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(80, 124, 150), rgb(62, 72, 119));
+  }
+
+  .header {
+    display: flex;
+  
+    flex-wrap: wrap;
+  }
+  .nav-area {
+    margin-left: auto;
+    margin-right: 5%;
+    padding: 15px;
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    margin-left: 5%;
+    height: 90px;
+    width: 90px;
+  }
+  .logo img {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .nav-area li a:hover {
+    background: #fff;
+    color: #333;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    background-color: rgb(62, 72, 119);
+    /*linear-gradient(#000000, #590159)*/
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+   
+    color: white;
+  }
+
+  .about-section p {
+    padding: 5px 0;
+    color: rgb(214, 227, 233);
+      font-family: 'Barrio';
+      font-size: 25px;
+  }
+
+  .about-section h1{
+    color: rgb(214, 227, 233);
+      font-family: 'Sedgwick Ave Display';
+      font-size: 72px;
+  }
+
+  @media (max-width: 650px) {
+    .nav-area {
+        width: 100%;
+      float: none;
+      text-align: center;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-area li a {
+        margin: 5px;
+        width: 100%;
+      padding: 5px;
+      font-size: 25px;
+    }
+    .logo {
+        width: 100px;
+       justify-content: center;
+       margin: 7px auto;
+      }
+  }
+  

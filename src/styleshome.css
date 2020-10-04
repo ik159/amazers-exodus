@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    background-color: rgb(62, 72, 119);
+    background-image: url("https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg");
+    width: 100%;
+    /*linear-gradient(#000000, #590159)*/
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    display: flex;
+  
+    flex-wrap: wrap;
+  }
+  .nav-area {
+    margin-left: auto;
+    margin-right: 5%;
+    padding: 15px;
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    margin-left: 5%;
+    height: 90px;
+    width: 90px;
+  }
+  .logo img {
+    width: 100%;
+    padding: 15px 0;
+    
+  }
+  .nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .nav-area li a:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+
+
+
+  .heading {
+    padding: 50px;
+    text-align: center;
+   
+    color: white;
+  }
+
+  .heading p {
+      margin: 10px;
+    padding: 5px 0;
+    color: rgb(214, 227, 233);
+      font-family: 'Barrio';
+      font-size: 32px;
+  }
+
+  .heading h3{
+      margin: 10px;
+    color: rgb(214, 227, 233);
+      font-family: 'Sedgwick Ave Display';
+      font-size: 55px;
+  }
+
+  .refservices {
+	margin: 10px;
+	background-color:transparent;
+	border-radius:9px;
+	border:2px solid #fff;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+
+}
+.refservices:hover {
+    border:2px solid #000;
+    background-color:white;
+    color: black;
+}
+.refservices a:hover {
+   
+    color: black;
+}
+.refservices:active {
+	position:relative;
+	top:1px;
+}
+.refservices a{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 650px) {
+    .nav-area {
+        width: 100%;
+      float: none;
+      text-align: center;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-area li a {
+        margin: 5px;
+        width: 100%;
+      padding: 5px;
+      font-size: 25px;
+    }
+    .logo {
+        width: 100px;
+       justify-content: center;
+       margin: 7px auto;
+      }
+  }
+  

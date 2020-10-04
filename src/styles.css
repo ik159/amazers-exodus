@@ -53,7 +53,7 @@
   
   .mid-container .two {
     overflow: hidden;
-    background: linear-gradient(to right, rgb(9, 6, 32),rgb(62, 72, 119));
+    background: linear-gradient(to right, rgb(52, 60, 97),rgb(62, 72, 119));
  
     border-radius: 10px;
     margin: auto;
@@ -104,8 +104,15 @@
       display: flex;
       flex-direction: column;
     }
+    .nav-area li {
+      margin: 10px;
+    }
+    .nav-area li {
+      margin: 15px;
+    }
     .nav-area li a {
-        margin: 5px;
+      text-decoration: underline;
+        margin: 15px;
         width: 100%;
       padding: 5px;
       font-size: 25px;
@@ -218,10 +225,15 @@
       width: 100%;
     }
     .mid-container .two {
-      background: linear-gradient(to bottom, rgb(80, 124, 150), rgb(62, 72, 119));
-      width: 30%;
-      min-width: 200px;
-      height: 400px;
+      background: linear-gradient(to bottom, rgb(52, 60, 97), rgb(62, 72, 119));
+      width: 47%;
+      min-width: 300px;
+      
+      height: 450px;
+    }
+    .card img {
+      height: 300px;
+      width: 300px;
     }
     .cardimg {
       border-radius: 10px 0 0px 0px;
